@@ -1,0 +1,164 @@
+/* Navbar custom styling */
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    max-height: 150px;
+    width: auto;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    color: #1430f0;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #1b51dd;
+}
+
+.container-fluid {
+    background-color: #e9e5e2;
+    padding: 0% 7%;
+}
+
+/* Main Content Styling */
+.container {
+    padding-top: 40px;
+}
+
+body{
+    background-color: #f1e8e0;
+}
+.FirstText{
+    font-size: 4rem;
+}
+.SecondText{
+    font-size: 3rem;
+}
+.ThirdText{
+    font-size: 2rem;
+   padding-bottom: 50px;
+}
+
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.ItumoPade{
+    color: #ffffff;
+    background-color: #0504aa;
+    padding: 0% 10% ;
+}
+/* The Pade Process */
+.icon-text{
+    padding-bottom: 25px;
+}
+
+.process-step {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.process-icon {
+    width: 50px;
+}
+
+.process-step h4 {
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+/* Services */
+.services{
+    background-color: #0504aa;
+    display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center;     /* Centers vertically */
+  height: 60vh;           /* Full viewport height */
+  border: 2px solid #000;
+  margin: 7% 0%;
+}
+.content {
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+    width: 40%;
+    height: auto;
+  }
+
+  
+/* Footer */
+footer {
+    background-color: #e9e5e2;
+    padding: 40px 0 0 0;
+}
+
+footer h5 {
+    font-weight: bold;
+}
+
+.social-icon {
+    width: 30px;
+}
+
+
+/* testimonial */
+/* Testimonial Styling */
+.testimonial {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.testimonial img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+blockquote {
+    font-style: italic;
+    font-size: 1.1rem;
+}
+
+blockquote-footer {
+    margin-top: 10px;
+    color: #6c757d;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: #007bff;
+    border-radius: 50%;
+}
+
+
+/* Footer Bottom */
+.bg-dark {
+    background-color: #343a40 !important;
+}
+
+
+.social-icon{
+    height: 2.5rem;
+    width: 3rem;
+}
+
+
+
