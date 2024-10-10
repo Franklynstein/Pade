@@ -224,6 +224,7 @@ body {
 footer {
     background-color: #e9e5e2;
     padding: 40px 0 0 0;
+    /* flex-shrink: 0; */
 }
 
 footer h5 {
@@ -460,6 +461,306 @@ blockquote-footer {
 
 @media (max-width: 992px) {
     .padepackage{
-        padding: 20px;
+        padding: 80px 20px;
+    }
+}
+
+
+/* Testimonial section */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.testimonials-section {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 100px 20px;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #0504aa;
+}
+
+.testimonial {
+    display: flex;
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    align-items: center;
+}
+
+.testimonial-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.testimonial-text {
+    flex: 1;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.author {
+    font-weight: bold;
+    color: #0504aa;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .testimonial {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .testimonial-image {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 10px;
+    }
+
+    .quote {
+        font-size: 1.1rem;
+    }
+
+    .author {
+        font-size: 1rem;
+    }
+}
+
+
+/* EVENT SECTION */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+} */
+
+.event-tab {
+    max-width: 900px;
+    margin: 100px auto;
+    padding: 50px 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.event-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #0504aa;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.video-container video {
+    width: 100%;
+    max-width: 700px;
+    height: 100%;
+    max-height: 700px;
+    border-radius: 10px;
+}
+
+.event-link {
+    text-align: center;
+}
+
+.event-link p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.event-btn {
+    background-color: #0504aa;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.event-btn:hover {
+    background-color: #3f3ebe;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .video-container video {
+        width: 100%;
+        height: auto;
+    }
+    .event-tab{
+        margin: 7%;
+    }
+
+    .event-title {
+        font-size: 2rem;
+    }
+
+    .event-link p {
+        font-size: 1.1rem;
+    }
+
+    .event-btn {
+        font-size: 1rem;
+        padding: 8px 16px;
+    }
+}
+
+
+/* DATING TIPS */
+
+/* Global Styles */
+
+
+/* Header Styles */
+/* Global Styles */
+/* body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+} */
+
+/* Header Styles */
+.header {
+    background-color: #0504aa;
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.header p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+/* Tips Container */
+.tips-container {
+    max-width: 800px;
+    margin: 100px auto;
+    padding: 0 20px;
+}
+
+/* Tip Section */
+.tip-section {
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+.tip-title {
+    background-color: #0504aa;
+    color: #fff;
+    padding: 15px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    margin: 0;
+    text-align: center;
+    border-bottom: 2px solid #eee;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.tip-title:hover {
+    background-color: #3f3ebe;
+}
+
+.tip-content {
+    padding: 20px;
+    display: none;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #333;
+    position: relative;
+}
+.tipheader{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+/* Slider Styles */
+.slider {
+    display: flex;
+    overflow: hidden;
+}
+
+.slide {
+    min-width: 100%;
+    transition: transform 0.5s ease-in-out;
+}
+
+button.prev, button.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 2px;
+    cursor: pointer;
+}
+
+button.prev {
+    left: 0;
+}
+
+button.next {
+    right: 0;
+}
+
+button.prev:hover, button.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .header h1 {
+        font-size: 2rem;
+    }
+
+    .tip-title {
+        font-size: 1.3rem;
+    }
+
+    .tip-content {
+        font-size: 0.95rem;
     }
 }
