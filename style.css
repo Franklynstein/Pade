@@ -102,7 +102,7 @@ p {
 @media (max-width: 768px) {
     .ItumoPade {
         padding: 5% 5% 10% 5%;
-        text-align: left; /* Center-align text for smaller screens */
+        text-align: center; /* Center-align text for smaller screens */
     }
 
     .WIP {
@@ -311,10 +311,19 @@ blockquote-footer {
      padding: 10%;
 }
 
-/* .abouttext{
-    padding: 5%;
-} */
+.aboutpade{
+    text-indent: 1rem;
+}
 
+@media (max-width: 992px){
+    .AboutPadeheader{
+        text-align: center;
+        margin: 50px 0 50px;
+    }
+    /* .aboutpade{
+        text-align: center;
+    } */
+}
 
 /* Pade Process */
 
@@ -427,63 +436,101 @@ blockquote-footer {
 
 .packageheader {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     color: #1430f0;
 }
 
-.accordion {
-    border-radius: 8px;
+.pricing-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 50px 0 30px 0;
 }
 
-.accordion-item {
-    border-bottom: 1px solid #ddd;
-}
-
-.accordion-button {
-    width: 100%;
-    padding: 15px;
-    text-align: left;
-    font-size: 18px;
-    background-color: #1430f0;
-    color: white;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.accordion-button:hover {
-    background-color: #0504aa;
-}
-
-.price {
-    float: right;
-    font-weight: bold;
-    font-size: 20px;
-    color: #fff;
-    padding-left: 20px;
-}
-
-.accordion-content {
-    margin-top: 5px;
-    padding: 0 15px;
-    background-color: #f9f9f9;
-    max-height: 0;
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
-    transition: max-height 0.3s ease;
+    width: 100%;
+    text-align: center;
+    transition: transform 0.3s;
+    padding: 10px;
+    border-width: 1px;
 }
 
-.accordion-content p {
-    margin: 10px 0;
+.card:hover {
+    transform: translateY(-10px);
 }
 
-.accordion-content p:last-child {
-    margin-bottom: 0;
+.card-header {
+    padding: 20px;
+    color: white;
+}
+
+.intro {
+    background-color: #00bcd4;
+
+}
+
+.welcome {
+    background-color: #7e57c2;
+}
+
+.loyal {
+    background-color: #4caf50;
+
+}
+
+.card-header h2 {
+    font-size: 1.5em;
+}
+
+.card-header h3 {
+    font-size: 2.5em;
+    margin-top: 10px;
+}
+
+.card-body {
+    padding: 20px;
+    color: #333;
+}
+
+.card-body ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.card-body li {
+    margin-bottom: 10px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #00bcd4;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #008c9e;
 }
 
 @media (max-width: 992px) {
-    .padepackage{
+    .padepackage {
         padding: 80px 20px;
+    }
+
+    .pricing-cards {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .card{
+        border-width: 2px;
     }
 }
 
@@ -679,8 +726,8 @@ blockquote-footer {
 
 /* Header Styles */
 .header {
-    background-color: #0504aa;
-    color: #fff;
+    /* background-color: #0504aa; */
+    color: #0504aa;
     padding: 30px 0;
     text-align: center;
 }
@@ -706,7 +753,7 @@ blockquote-footer {
 .tip-section {
     background-color: #ffffff;
     margin-bottom: 20px;
-    border-radius: 10px;
+    border-radius: 30px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     transition: all 0.3s ease-in-out;
