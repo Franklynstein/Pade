@@ -116,6 +116,12 @@ p {
     .img-fluid {
         margin-bottom: 20px; /* Add margin to image when stacked on top */
     }
+    .ourservices{
+        text-align: left;
+    }
+    .contlist{
+        text-align: left;
+    }
 }
 /* The Pade overview */
 .icon-text {
@@ -333,6 +339,7 @@ blockquote-footer {
     margin: 0;
     padding: 20px;
     background-color: #f1e8e0;
+    color: #fff;
 }
 
 .PadeHeader {
@@ -353,12 +360,12 @@ blockquote-footer {
 }
 
 .card {
-    background-color: #fff;
+    background-color: #0504aa;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
-    border-color: #0504aa;
+    border-color: #fff;
     border-width: 2px;
 }
 
@@ -368,12 +375,14 @@ blockquote-footer {
 
 .card h2 {
     margin-top: 0;
-    color: #2c3e50;
+    color: #0056D2;
 }
 
 .card p {
-    color: #7f8c8d;
+    color: #7D7A75;
 }
+
+
 
 @media (max-width: 992px) {
     .card-container {
@@ -422,7 +431,7 @@ blockquote-footer {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 120px;
-    background-color: #f4f4f4;
+    /* background-color: #f4f4f4; */
 }
 
 .packagecontainer {
@@ -469,21 +478,22 @@ blockquote-footer {
 }
 
 .intro {
-    background-color: #00bcd4;
+    background-color: #1b51dd;
 
 }
 
 .welcome {
-    background-color: #7e57c2;
+    background-color: #4057f2;
 }
 
 .loyal {
-    background-color: #4caf50;
+    background-color: #1430f0;
 
 }
 
 .card-header h2 {
     font-size: 1.5em;
+    color: #f1e8e0;
 }
 
 .card-header h3 {
